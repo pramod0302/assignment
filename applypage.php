@@ -41,7 +41,7 @@ body{
     padding: 50px;
   background-color: pink;
 }
-
+ 
 input[type=text], input[type=password], textarea {
   width: 100%;
   padding: 15px;
