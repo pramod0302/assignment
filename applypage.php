@@ -134,8 +134,12 @@ Current Address :
 <!DOCTYPE html>
 <html>
 <body>
-
-<button type="button" onclick="alert">submit!</button>
+<div>
+  <form name='myform' action='successpage.php'>
+    <!-- <button type="button" onclick="alert">submit!</button> -->
+    <button class='button' type='submit'>SUBMIT</button>
+  </form>
+</div>
  
 </body>
 </html>
