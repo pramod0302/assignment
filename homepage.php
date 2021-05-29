@@ -57,10 +57,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 </style>
 <body>
-  <center>
-
-<center><h1>types of jobs you are looking for </h1></center>
-
+<center><h1>JOB PORTAL</h1></center>
 </body>
 </html> 
 
@@ -160,32 +157,37 @@ body {font-family: "Lato", sans-serif;}
   <div id="design" class="tabcontent">
     <form name='myform' action='design.php'>
      <button class="button button2">select</button>
-     </form>    
+   </form>    
   </div>
 
 <div id="cooking" class="tabcontent">
   <form name='myform' action='cooking.php'>
     <button class="button button3">select</button>
+  </form>
 </div>
 
 <div id="driving" class="tabcontent">
   <form name='myform' action='driving.php'>
     <button class="button button4">select</button>
+  </form>
 </div>
 
 <div id="serve custmers" class="tabcontent">
   <form name='myform' action='serve custmer.php'>
     <button class="button button5">select</button>
+  </form>
 </div>
 
 <div id="Architect" class="tabcontent">
   <form name='myform' action='.php'>
     <button class="button6">select</button>
+  </form>
 </div>
 
 <div id="Teaching job" class="tabcontent">
   <form name='myform' action='.php'>
     <button class="button7">select</button>
+  </form>
 </div>
 
 <script>
