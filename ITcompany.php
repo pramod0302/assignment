@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
-		body{
-			background-color: gold;
-		}
-	</style>
-	<title>IT company</title>
+	<title>IT COMPANY POSTS</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
 	<center>
-	<h1>Project manager</h1>
-	<p>job description <br>
-
-		managing the development lifecycle of automation system,from planning to deployment.</p>
-        <h2>Qualification: </h2>
+		<h1>Project manager</h1>
+		<p>
+			<b>
+				JOB DESCRIPTION
+			</b>
+		</p>
+		<p>
+			Managing the development lifecycle of automation system,from planning to deployment.
+		</p>
+	    <h2>Qualification: </h2>
 		Min experince:7years<br>                                                                                                     
 		min level of education:masters<br>
 		salary:25,000/month <br>
 		known language:hindi and kannada<br>
-		<div class="container">
-			<form name='myform' action='applypage.php'>
-		    <button class="profile">profile</button>
-		 </form>
-	    </div>
-		</body>
-</center>
+		<br>
+		<form name='myform' action='applypage.php'>
+			<button class="btn btn-info">APPLY</button>
+		</form>
 
-</html> <br>
-<center>
-<h1>HR recruiter</h1>
-<p>We are looking for HR recruiters to manage our full lifeecycle from identifying<br> 
-	potential hires to interviewing and evaluating candidates.<br>
-</p>
-<h2>Qualifications:</h2>
-min work experince:1 year
-salary:15,000-45,000 per month <br>
-min level of education:Bachelors<br>
-known language:english,hindi,telegu,tamil<br>
-<div class="container">
-	<form name='myform' action='applypage.php'>
-	<button class="profile">profile</button>
-</center>
-</form>
-</div>
+		<h1>HR recruiter</h1>
+		<p>
+			<b>
+				JOB DESCRIPTION
+			</b>
+		</p>
+		<p>
+			We are looking for HR recruiters to manage our full lifeecycle from identifying potential hires to interviewing and evaluating candidates.
+		</p>
+	    <h2>Qualification: </h2>
+			min work experince:1 year
+			salary:15,000-45,000 per month <br>
+			min level of education:Bachelors<br>
+			known language:english,hindi,telegu,tamil<br>
+		<br>
+		<form name='myform' action='applypage.php'>
+			<button class="btn btn-info">APPLY</button>
+		</form>
+
+	</center>
+
+</body>
+</html>
