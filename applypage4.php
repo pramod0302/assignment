@@ -35,7 +35,7 @@
 <style>
 body{
   font-family: Calibri, Helvetica, sans-serif;
-  background-color: pink;
+  background-color: lightblue;
 }
 .container {
     padding: 50px;
@@ -79,40 +79,45 @@ hr {
 </head>
 <body>
   <center>
-      <h1> REGISTRATION FORM</h1> </center>
+      <h1> PROFILE</h1> </center>
       <hr>
-      <label> Firstname </label> 
-      <input type="text" name="firstname" placeholder= "Firstname" size="15" required /> 
+      <h2>References</h2>
+      <label> Fullname </label> 
+      <input type="text" name="fullname" placeholder= "Fullname" size="15" required /> 
+      <select>
+        <option value="relationtype">relationtype</option>
+        <option value="work reference">work reference</option>
+        <option value="education reference">education reference</option>
+        <option value="personal reference">personal refernce</option>
+      </select> <br><br>
+      <label> current company </label> 
+      <input type="text" name="current company" placeholder= "current company" size="15" required /> 
       <label> DOB: </label> 
       <input type="text" name="DOB" placeholder="DOB" size="10" required /> 
-      <label> Lastname: </label>  
-      <input type="text" name="lastname" placeholder="Lastname" size="15"required /> 
+      <input type="text" name="phone" placeholder="phone no." size="10"/ required> 
+      <label> description </label> 
+      <input type="text" name="description" placeholder= "description" size="15" required /> 
     <div>
+      <h3>Education</h3>
 <label> 
 Course :
 </label>
 
-Education :
-<textarea cols="50" rows="4" placeholder="Education" value="Education" required>
-</textarea> 
-
 <select>
   <option value="Course">Course</option>
-  <option value="BCA">BCA</option>
-  <option value="BBA">BBA</option>
-  <option value="B.Tech">B.Tech</option>
-  <option value="MBA">MBA</option>
-  <option value="MCA">MCA</option>
-  <option value="M.Tech">M.Tech</option>
-</select><br>
+  <option value="diploma">diploma</option>
+  <option value="secondary school">secondary school</option>
+  <option value="higher secondary school">higher secondary school</option>
+  <option value="bachelors">bachelors</option>
+  <option value="masters">masters</option>
+  <option value="others">others</option>
+</select><br><br>
+<label> what did u learn? </label>  
+      <input type="text" name="what did u learn?" placeholder="what did u learn?" size="15"required /> 
 <label> experince: </label>  
       <input type="text" name="experince" placeholder="experince" size="15"required /> 
-<select>
-  <option value="expected salary">expected salary</option>
-   <option value="maximum">max</option>
-  <option value="minimum">min</option>
-  
-</select>
+      <label> where did u work before? </label>  
+      <input type="text" name="where did u work before?" placeholder="where did u work before?" size="15"required /> 
 </div>
 <div>
 <label> 
@@ -120,21 +125,15 @@ Gender :
 </label><br>
 <input type="radio" value="Male" name="gender" checked > Male 
 <input type="radio" value="Female" name="gender"> Female 
-<input type="radio" value="Other" name="gender"> Other
-
 </div>
-<label> 
-Phone :
-</label>
-<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/> 
-<input type="text" name="phone" placeholder="phone no." size="10"/ required> 
+</label> 
 Current Address :
 <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>
 </textarea>
-
-<!DOCTYPE html>
-<html>
-<body>
+<h4>Resume</h4>
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  </form><br><br>
 
 <button type="button" onclick="alert">submit!</button>
  

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: pink;
+		}
+	</style>
+	<title>Cooking</title>
+</head>
+<body>
+<center>
+	<h1>Restaurants and homes</h1>
+	<h2>Job description</h2>
+	Candidates should be commi1 or and commi2,trained and semi-skilled also both <br>
+	veg and non-veg for restaurants as well as homes.<br>
+	Candidates with cooking knowledge of indians,italian,chinese,mexican,thai etc.,preferred<br>
+	Benefits:free food and accomodation are provide.<br>
+	<h3>Qualification</h3>
+	.min evel of experince:1 year<br>
+	.education:secondary school<br>
+	.salary:20,000-30,000 per month<br>
+	<div class="container">
+	<form name='myform' action='applypagecooking.php'>
+		 <button class="profile">profile</button>
+		</form>	
+	</div>
+</center>
+</body>
+</html><br>
+
+<center>
+	<h1>Nanny</h1>
+	<h2>Job description</h2>
+	kaamkhoj requries nannies to change nappies,bathe,dress children and assit them<br>
+	with their snacks,drinks,and meals as needed .<br>
+	Exprienced ca apply.<br>
+	part-time and full time jobs are available immedately.<br>
+	<h3>Qualifiactions:</h3>
+	min level of experince:1 year<br>
+	education:secondary school<br>
+	salary:20,000-25,000 per month<br>
+	<div class="container">
+		<form name='myform' action='applypagecooking.php'>
+		 <button class="profile">profile</button>
+			
+		</form>
+	</div>
+</center>

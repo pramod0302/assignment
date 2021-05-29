@@ -22,12 +22,6 @@ p {
 </body>
 </html>
 
-
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -64,14 +58,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>
 <body>
   <center>
-      <h2> JOB PORTAL</h2> </center>
 
-<div class="navbar">
-  <button class="HOME">HOME</button>
-  <button class="CONTACT">CONTACT</button>
-  <button class="ABOUT US">ABOUT US</button>
-  <button class="APPLY">APPLY</button>
-</div>
+<center><h1>types of jobs you are looking for </h1></center>
 
 </body>
 </html> 
@@ -135,9 +123,12 @@ body {font-family: "Lato", sans-serif;}
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'IT company')" id="defaultOpen">IT company</button>
-  <button class="tablinks" onclick="openCity(event, 'software Engineering')">software Engineering</button>
-  <button class="tablinks" onclick="openCity(event, 'civil Engineering')">civil Engineering</button>
-  <button class="tablinks" onclick="openCity(event, 'mechanical Engineering')">mechanical Engineering</button>
+  <button class="tablinks" onclick="openCity(event, 'design')">design</button>
+  <button class="tablinks" onclick="openCity(event, 'cooking')">cooking</button>
+  <button class="tablinks" onclick="openCity(event, 'driving')">driving</button>
+  <button class="tablinks" onclick="openCity(event, 'serve custmers')">serve custmers</button>
+  <button class="tablinks" onclick="openCity(event, 'Architect')">Architect</button>
+  <button class="tablinks" onclick="openCity(event, 'Teaching job')">Teaching job</button>
 </div>
 
 <!DOCTYPE html>
@@ -158,42 +149,43 @@ body {font-family: "Lato", sans-serif;}
   cursor: pointer;
 }
 </style>
-</head>
-<body>
 
 
-
-</body>
-</html>
-
-
-<div id="IT company" class="tabcontent">
-  <form name='myform' action='applypage.php'>
-    <h3>IT company</h3>
-    <p>Information technology is the broad subject concerned with all aspects of managing and processing information.</p>
-    <button class='button' type='submit'>APPLY</button>
+<div id="IT company" class="tabcontent">                           
+  <form name='myform' action='ITcompany.php'>
+    <button class="button button1">select</button>
   </form>
 </div>
 
-<div id="software Engineering" class="tabcontent">
-  <form name='myform' action='applypage2.php'>
-  <h3>software Engineering</h3>
-  <p>software Engineering is an engineering branch related to the evolution of software product using well-defined scientific principles, techniques, and procedures.</p> 
-  <button class='button' type='submit'>APPLY</button>
+  <div id="design" class="tabcontent">
+    <form name='myform' action='design.php'>
+     <button class="button button2">select</button>
+     </form>    
+  </div>
+
+<div id="cooking" class="tabcontent">
+  <form name='myform' action='cooking.php'>
+    <button class="button button3">select</button>
 </div>
 
-<div id="civil Engineering" class="tabcontent">
-  <form name='myform' action='applypage3.php'>
-  <h3>civil Engineering</h3>
-  <p>civil Engineering means it deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways.</p>
-  <button class='button' type='submit'>APPLY</button>
+<div id="driving" class="tabcontent">
+  <form name='myform' action='driving.php'>
+    <button class="button button4">select</button>
 </div>
 
-<div id="mechanical Engineering" class="tabcontent">
-  <form name='myform' action='applypage4.php'>
-  <h3>mechanical Engineering</h3>
-  <p>mechanical Engineering means it deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways.</p>
-  <button class='button' type='submit'>APPLY</button>
+<div id="serve custmers" class="tabcontent">
+  <form name='myform' action='serve custmer.php'>
+    <button class="button button5">select</button>
+</div>
+
+<div id="Architect" class="tabcontent">
+  <form name='myform' action='.php'>
+    <button class="button6">select</button>
+</div>
+
+<div id="Teaching job" class="tabcontent">
+  <form name='myform' action='.php'>
+    <button class="button7">select</button>
 </div>
 
 <script>
