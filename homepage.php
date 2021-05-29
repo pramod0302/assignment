@@ -39,57 +39,7 @@
       </p> -->
     </div>
 
-  <!-- Vertical navbar -->
-  <!--   <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false">IT jobs</a>
-      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Designer</a>
-      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Cooking</a>
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Driving</a>
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Service</a>
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Architect</a>
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Teaching</a>
-    </div> -->
-  <!--   <div class="tab-content" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-    </div>
-   -->
     <div class="tab">
-      <!-- openCity(onclick, 'IT'); -->
-      <!-- window.openCity(onclick, 'IT'); -->
-      <script type="text/javascript" language="JavaScript">
-        // var evt = document.createEvent("MouseEvents");
-        // var evt = new MouseEvent("click", {
-        //     view: window,
-        //     bubbles: true,
-        //     cancelable: true,
-        //     clientX: 20,
-        //     /* whatever properties you want to give it */
-        // });
-      // var event = target.ownerDocument.createEvent('MouseEvents'),
-      // options = options || {},
-      // opts = { // These are the default values, set up for un-modified left clicks
-      //   type: 'click',
-      //   canBubble: true,
-      //   cancelable: true,
-      //   view: target.ownerDocument.defaultView,
-      //   detail: 1,
-      //   screenX: 0, //The coordinates within the entire page
-      //   screenY: 0,
-      //   clientX: 0, //The coordinates within the viewport
-      //   clientY: 0,
-      //   ctrlKey: false,
-      //   altKey: false,
-      //   shiftKey: false,
-      //   metaKey: false, //I *think* 'meta' is 'Cmd/Apple' on Mac, and 'Windows key' on Win. Not sure, though!
-      //   button: 0, //0 = left, 1 = middle, 2 = right
-      //   relatedTarget: null,
-      // };
-        initCity('IT');
-      </script>
-
       <button class="tablinks" onclick="openCity(event, 'IT')" id="defaultOpen">IT Jobs</button>
       <button class="tablinks" onclick="openCity(event, 'design')">Design</button>
       <button class="tablinks" onclick="openCity(event, 'cooking')">Cooking</button>
