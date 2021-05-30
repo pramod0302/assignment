@@ -29,10 +29,13 @@
         echo "<table border='5' bordercolor='pink' align='center'>
         
         <tr>
-            <th colspan='4'>Feedback given by customers</th> 
+            <th colspan='6'>Applied applications</th> 
         </tr>
         <tr>
-            <th>Feedback</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Previous Experience</th>
+            <th>Experience years</th>
             <th>Date</th>
             <th>Time</th>
         </tr>";
@@ -45,6 +48,9 @@
 		    {
 		        echo "<tr>";
 				echo "<td>" . $query_executed['name']. "</td>";
+				echo "<td>" . $query_executed['email']. "</td>";
+				echo "<td>" . $query_executed['expprev']. "</td>";
+				echo "<td>" . $query_executed['expyears']. "</td>";
 				echo "<td>" .date("Y/m/d"). "</td>";
 				echo "<td>" .date("h:i:sa"). "</td>";
 				echo "<p></p>";
