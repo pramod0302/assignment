@@ -15,14 +15,9 @@
 	Min level of experince:1 year<br>
 	Education:Secondary high school<br>
 	salary:18,000-20,000 per month<br>
-	<h5>start date</h5>
-	<center>july 3,2021</center>
-	<h5>Available jobs</h5>
-	<center>5</center>
-	<h5>employer will contact you about details</h5>
 	<div class="container">
-	<form name='myform' action='applypage5.php'>
-		   <button class="btn btn-info">APPLY</button>
+	<form name='myform' action='applypage.php'>
+		    <button class="profile">profile</button>
 		
 	</form> 
 	</div>
@@ -42,14 +37,9 @@ cross selling beauty therapies and products.<br>
 <h3>Qualification:</h3>
 .Education:Higher secondary school<br>
 .Speak English and hindi<br>
-<h5>start date</h5>
-	<center>july 3,2021</center>
-	<h5>Available jobs</h5>
-	<center>6</center>
-	<h5>employer will contact you about details</h5>
 <div class="container">
 	<form name='myform' action='applypage5.php'>
-		<button class="btn btn-info">APPLY</button>
+		    <button class="profile">profile</button>>
 		</form>
 	
 </div>

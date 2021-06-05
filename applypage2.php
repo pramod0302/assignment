@@ -1,141 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  cursor: pointer;
-}
-</style>
-<div id="IT company" class="tabcontent">
-  <form name='myform' action='homepage.php'>
+  <title> Apply page</title>
+  <link rel="stylesheet" type="text/css" href="applypage.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="homepage.php">Home</a>
+      <a class="navbar-brand" href="#">About</a>
+      <a class="navbar-brand" href="applypage.php">Apply</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<button class="HOME">HOME</button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <!--           <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
 
-</body>
-<form name='myform' action='homepage.php'>
+    </nav>
+  </div>
+  <div class="container">
     <div class="jumbotron">
-</html>
+      <center>
+        <h1 class="display-4">APPLY PAGE</h1>
+      </center>
+      <p> </p>
+    </div>
 
+    <!-- <form> -->
+      <form name='myform' action='submitpage.php'>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Name</label>
+            <input type="text" class="form-control" id="inputEmail4" name="name" placeholder="Full Name">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Enter your full address">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputCity">Previous experience</label>
+            <input type="text" class="form-control" name="exp" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Qualification</label>
+            <select id="inputState" class="form-control" name="qualification">
+              <option selected>Choose...</option>
+              <option>BCA</option>
+              <option>MCA</option>
+              <option>EC</option>
+              <option>CS</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputZip">Experience in years</label>
+            <input type="text" class="form-control" name="expyears"id="number of years">
+          </div>
+        </div>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body{
-  font-family: Calibri, Helvetica, sans-serif;
-  background-color: lightblue;
-}
-.container {
-    padding: 50px;
-  background-color: pink;
-}
-
-input[type=text], input[type=password], textarea {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-input[type=text]:focus, input[type=password]:focus {
-  background-color: orange;
-  outline: none;
-}
- div {
-      padding: 10px 0;
-      }
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-.registerbtn {
-  background-color: #dcdcdc;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-.registerbtn:hover {
-  opacity: 1;
-}
-</style>
-<form name='myform' action='homepage.php'>
-</head>
-<body>
-  <center>
-      <h1> PROFILE</h1> </center>
-      <hr>
-      <h2>References</h2>
-      <label> Fullname </label> 
-      <input type="text" name="fullname" placeholder= "Fullname" size="15" required /> 
-      <select>
-        <option value="relationtype">relationtype</option>
-        <option value="work reference">work reference</option>
-        <option value="education reference">education reference</option>
-        <option value="personal reference">personal refernce</option>
-      </select> <br><br>
-      <label> current company </label> 
-      <input type="text" name="current company" placeholder= "current company" size="15" required /> 
-      <label> DOB: </label> 
-      <input type="text" name="DOB" placeholder="DOB" size="10" required /> 
-      <input type="text" name="phone" placeholder="phone no." size="10"/ required> 
-      <label> description </label> 
-      <input type="text" name="description" placeholder= "description" size="15" required /> 
-    <div>
-      <h3>Education</h3>
-<label> 
-Course :
-</label>
-
-<select>
-  <option value="Course">Course</option>
-  <option value="diploma">diploma</option>
-  <option value="secondary school">secondary school</option>
-  <option value="higher secondary school">higher secondary school</option>
-  <option value="bachelors">bachelors</option>
-  <option value="masters">masters</option>
-  <option value="others">others</option>
-</select><br><br>
-<label> what did u learn? </label>  
-      <input type="text" name="what did u learn?" placeholder="what did u learn?" size="15"required /> 
-<label> experince: </label>  
-      <input type="text" name="experince" placeholder="experince" size="15"required /> 
-      <label> where did u work before? </label>  
-      <input type="text" name="where did u work before?" placeholder="where did u work before?" size="15"required /> 
-</div>
-<div>
-<label> 
-Gender :
-</label><br>
-<input type="radio" value="Male" name="gender" checked > Male 
-<input type="radio" value="Female" name="gender"> Female 
-</div>
-</label> 
-Current Address :
-<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>
-</textarea>
-<h4>Resume</h4>
-<form action="/action_page.php">
-  <input type="file" id="myFile" name="filename">
-  </form><br><br>
-
-<button type="button" onclick="alert">submit!</button>
- 
+          <center>
+  <!--           <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Accept terms and condition
+                </label>
+              </div>
+            </div> -->
+            <button type="submit" class="btn btn-primary">Apply</button>
+          </center>
+        </form>
+      <!-- </form> -->
+  </div>
 </body>
 </html>

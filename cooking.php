@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
-		body{
-			background-color: pink;
-		}
-	</style>
 	<title>Cooking</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
 <center>
@@ -20,16 +17,21 @@
 	.min evel of experince:1 year<br>
 	.education:secondary school<br>
 	.salary:20,000-30,000 per month<br>
+	<h5>start date</h5>
+	<center>july 3,2021</center>
+	<h5>Available jobs</h5>
+	<center>50</center>
+	<h5>employer will contact you about details</h5>
 	<div class="container">
-	<form name='myform' action='applypagecooking.php'>
-		 <button class="profile">profile</button>
+	<form name='myform' action='applypage3.php'>
+		<button class="btn btn-info">APPLY</button>
 		</form>	
 	</div>
-</center>
+
 </body>
 </html><br>
 
-<center>
+
 	<h1>Nanny</h1>
 	<h2>Job description</h2>
 	kaamkhoj requries nannies to change nappies,bathe,dress children and assit them<br>
@@ -40,9 +42,14 @@
 	min level of experince:1 year<br>
 	education:secondary school<br>
 	salary:20,000-25,000 per month<br>
+	<h5>start date</h5>
+	<center>july 5,2021</center>
+	<h5>Available jobs</h5>
+	<center>50</center>
+	<h5>employer will contact you about details</h5>
 	<div class="container">
 		<form name='myform' action='applypagecooking.php'>
-		 <button class="profile">profile</button>
+		 <button class="btn btn-info">APPLY</button>
 			
 		</form>
 	</div>
