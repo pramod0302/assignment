@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href= "ext6.css">
 </head>
 <body>
-	<?php
-		// echo "<form name='form' action='' method='post'>
 
+
+	<?php
 		// 	 </form>";
 		// $value =  $_POST['subject'];
 		// echo $value;
@@ -29,7 +29,7 @@
         echo "<table border='5' bordercolor='pink' align='center'>
         
         <tr>
-            <th colspan='6'>Applied applications</th> 
+            <th colspan='6' >Applied applications</th> 
         </tr>
         <tr>
             <th>Name</th>
