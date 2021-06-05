@@ -1,0 +1,7 @@
+UPDATE `menutable` SET `info`='Test123' WHERE `Item Picture`='French.jpg'
+UPDATE `menutable` SET `info`='Test123' WHERE `Item Picture`='French.jpg'
+
+UPDATE `menutable` SET `Cost`=20 WHERE `Item Picture`='French.jpg'
+
+// Delete all tables
+TRUNCATE TABLE employeet
